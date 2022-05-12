@@ -1,0 +1,50 @@
+const data = [
+    {   
+       serialNumber: '1',
+       productName: 'Samsung Galaxy Fold 2',
+       quantity: '2',
+       orderId: '001',
+       orderValue: 'N200,000',
+       customerEmail: 'ashimidoyin@gmail.com',
+    },
+    {   
+       serialNumber: '2',
+       productName: 'iPhone 12 Pro max',
+       quantity: '5',
+       orderId: '021',
+       orderValue: 'N300,000',
+       customerEmail: 'sarahsam@gmail.com',
+    },
+    {   
+       serialNumber: '3',
+       productName: 'Mark & Spencer Top',
+       quantity: '15',
+       orderId: '085',
+       orderValue: 'N6,000',
+       customerEmail: 'kabiratkunle@yahoo.com',
+    },
+    {   
+       serialNumber: '4',
+       productName: 'Airpod 2',
+       quantity: '30',
+       orderId: '108',
+       orderValue: 'N55,000',
+       customerEmail:  'raufaregbesola@icloud.com',
+    },
+    {   
+       serialNumber: '5',
+       productName: 'Versace Aros',
+       quantity: '9',
+       orderId: '356',
+       orderValue: 'N38,000',
+       customerEmail: 'jackharry@ymail.co.uk',
+    },
+    {   
+       serialNumber: '6',
+       productName: 'Fifa 2022',
+       quantity: '60',
+       orderId: '097',
+       orderValue: 'N45,000',
+       customerEmail:  'gamersnet@gmail.com',
+    }
+]

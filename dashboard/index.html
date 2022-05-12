@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Developer Assessment</title>
+    <!-- Material Icons CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>                        
+                </div>
+            </div>
+            <div class="sidebar" >
+                <a href="#" id="sidebar">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                
+                <a href="./pages/product.html" id="produce">
+                    <span class="material-icons-sharp">production_quantity_limits</span>
+                    <h3>Products</h3>
+                </a>
+                
+            </div>
+        </aside>
+        <div class="menu">
+            <div class="open" id="menu-btn">
+                <span class="material-icons-sharp">menu</span>                        
+            </div>
+        </div>
+        <!-- End of Sidebar  -->
+
+        <!-- Start of Main Section -->
+        <main>
+            <h1>Counter</h1>
+            
+            <!-- Counter Section -->
+
+            <div class="counter">
+                <!-- Start of Number of Products Section  -->
+                <div class="products">
+                    <span class="material-icons-sharp">shopping_bag</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Number of Products</h3>
+                            <h1>58 Items</h1>
+                        </div>
+                        <!-- <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>26%</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End of Number of Products Section -->
+
+                <!-- Start of Number of Orders Section  -->
+                <div class="orders">
+                    <span class="material-icons-sharp">local_shipping</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Number of Orders</h3>
+                            <h1>36 Orders</h1>
+                        </div>
+                        <!-- <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="num2e`mr    MEDSQ2Qer">
+                                <p>68%</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End of Number of Orders Section -->
+
+                <!-- Start of Number of Sales Section  -->
+                <div class="sold">
+                    <span class="material-icons-sharp">sell</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Items Sold</h3>
+                            <h1>36 Items</h1>
+                        </div>
+                        <!-- <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>86%</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End of Number of Sales Section -->
+
+                <!-- Start of Sales value in naira Section -->
+                <div class="sales">
+                    <span class="material-icons-sharp">assessment</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>N2,250,000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>82%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End of Sales value in naira Section -->
+            </div>
+
+            <!-- End of Counter Section  -->
+
+            <!-- Start of Order Table Section -->
+
+            <div class="order-table">
+                <h1>Order Table</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>S/N</th>
+                            <th class="table-product">Product Name</th>
+                            <th>Quantity</th>
+                            <th>Order Id</th>
+                            <th>Order Value</th>
+                            <th class="table-product">Customer Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
